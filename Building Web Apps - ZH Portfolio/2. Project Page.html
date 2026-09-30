@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="personal-webpage.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zach Hojeibane - Work</title>
+
+<style>
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+
+    .project-card {
+        border: 1px solid #000000;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .project-card p {
+        padding: 1.25rem;
+        margin: 0;
+    }
+
+    @media (max-width: 700px) {
+        .card-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .page-header {
+        margin-top: 2rem !important;
+        display: block !important;
+    }
+
+    .page-header h1 {
+        font-size: 3rem !important;
+        line-height: 1.2 !important;
+        margin: 0 0 0.5rem 0 !important;
+        display: block !important;
+    }
+</style>
+</head>
+<body>
+<div class="container" role="main">
+<div class="top">
+<div class="top-container">
+<nav>
+<!--this takes us to another HTML page within the same folder-->
+<a href="personal-webpage.html">About</a>
+<!--the hash represents current page-->
+<a href="#">Work</a>
+<a href="https://www.instagram.com/ambreen/?hl=en" aria-label="Instagram">
+<i class="fab fa-instagram social-icon instagram-icon"></i>
+</a>
+<a href="https://www.linkedin.com/in/ambreenmolitor/" aria-label="LinkedIn">
+<i class="fab fa-linkedin social-icon linkedin-icon"></i>
+</a>
+</nav>
+</div>
+</div>
+
+
+<div class="page-header">
+<h1>A small collection of my favorite projects</h1>
+</div>
+
+<div class="card-grid">
+<div class="project-card">
+<img src="images/Cunard 1.png" alt="Cunard 1">
+<h2 class="card-title">Cunard Design System</h2>
+<p>Tasked with the createion of a complete design system for Cunard Cruise Lines. Hilgights a stong profficiency in top down web design comprehension</p>
+</div>
+
+<div class="project-card">
+<img src="images/NYCT.png" alt="NYCT">
+<h2 class="card-title">NYC Tourism - Trip Planing Feature Build out</h2>
+<p>Tasked with building out a plan yoru trip feature, this project hilights strong research skills, and prototyping abilities</p>
+</div>
+
+<div class="project-card">
+<img src="images/Cardstory.png" alt="CardStory">
+<h2 class="card-title">CardStory- Redsesign and Pitch </h2>
+<p>In this project, I work closely with the brand president to help optimize feature buildout, and usability for their digital Pokemon Trading Card Platform</p>
+</div>
+
+<div class="project-card">
+<img src="images/Hire.png" alt="Graphic Design Work">
+<h2 class="card-title">Digital Graphic Design Work</h2>
+<p>Zach also has a strong history traditional graphic design. See more of that work here!</p>
+</div>
+</div>
+
+<footer>
+<p>Zach Hojeibane - September 2026</p>
+</footer>
+</div>
+</body>
+</html>
